@@ -1,13 +1,15 @@
 #include <iostream>
-#include <Eigen/Eigen>
-#include "NeuralNetwork.h"
-#include "DataProcessing.h"
+#include "Eigen/Eigen"
+#include "../include/NeuralNetwork.h"
+#include "../include/DataProcessing.h"
 
 
 
 typedef  std::vector<RowVector*> data;
 
 int main() {
+
+
 
     NeuralNetwork n({ 2, 3, 1 });
     data in_dat, out_dat;

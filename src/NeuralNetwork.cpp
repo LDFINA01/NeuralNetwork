@@ -1,7 +1,7 @@
 //
 // Created by LuisF on 6/24/2024.
 //
-#include "NeuralNetwork.h"
+#include "../include/NeuralNetwork.h"
 
 
 //Activation Functions (s)
