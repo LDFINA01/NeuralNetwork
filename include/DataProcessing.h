@@ -9,6 +9,7 @@
 #include <vector>
 #include <functional>
 #include <fstream>
+#include <random>
 
 typedef Eigen::Matrix<float, 1, Eigen::Dynamic, Eigen::RowMajor> RowVector;
 typedef float Scalar;

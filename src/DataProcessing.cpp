@@ -39,9 +39,15 @@ void DataProcessing::ReadCSV(const std::string& filename, std::vector<RowVector*
 void DataProcessing::genData(const std::string& filename) {
     std::ofstream file1(filename + "-in");
     std::ofstream file2(filename + "-out");
+    // Use the random device to seed the generator
+    std::random_device rd;
+    // Use the Mersenne Twister engine for a random number genrator
+    std::mt19937 gen(rd());
+    // Define the distribution for the random number
+    std::uniform_real_distribution<Scalar> dis(0.0, 1.0);
     for (unsigned int r = 0; r < 1000; r++) {
-        Scalar x = rand() / Scalar(RAND_MAX);
-        Scalar y = rand() / Scalar(RAND_MAX);
+        Scalar x = dis(gen);
+        Scalar y = dis(gen);
         file1 << x << ", " << y << std::endl;
         file2 << 2 * x + 10 + y << std::endl;
     }
