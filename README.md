@@ -31,7 +31,7 @@ To build and run this project, follow these steps:
    ./NeuralNetwork
 
 ## License
-This project is licensed under the GNU 2.0 License. See the LICENSE file for details.
+This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
 
 ## Contact
 For issues or questions regarding this project, please open an issue on the GitHub repository.
