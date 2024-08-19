@@ -5,6 +5,13 @@ Neural Network Implementation Using Eigen3 Library
 ## Overview
 This project implements a neural network from scratch in C++ using the Eigen3 library for efficient linear algebra operations. It includes functionalities for forward propagation, backpropagation, and training with synthetic data.
 
+## Additional Documentation
+
+For a more comprehensive understanding of the neural network and its components, please refer to the following files within this repository:
+
+- [HowItWorks.md](HowItWorks.md): Detailed explanation of the core functions and their roles within the neural network.
+- [IntroToNeuralNetworks.md](IntroToNeuralNetworks.md): Introduction to neural networks, covering the mathematical concepts and code implementation in an accessible manner.
+
 ## Dependencies
 - [Eigen3](https://eigen.tuxfamily.org/dox/GettingStarted.html): C++ template library for linear algebra.
 
